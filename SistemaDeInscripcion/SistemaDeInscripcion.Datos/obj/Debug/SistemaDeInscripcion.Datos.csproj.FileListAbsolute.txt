@@ -1,0 +1,10 @@
+C:\Users\curacao\Desktop\SistemaDeInscripcion\SistemaDeInscripcion.Datos\bin\Debug\SistemaDeInscripcion.Datos.dll.config
+C:\Users\curacao\Desktop\SistemaDeInscripcion\SistemaDeInscripcion.Datos\bin\Debug\SistemaDeInscripcion.Datos.dll
+C:\Users\curacao\Desktop\SistemaDeInscripcion\SistemaDeInscripcion.Datos\bin\Debug\SistemaDeInscripcion.Datos.pdb
+C:\Users\curacao\Desktop\SistemaDeInscripcion\SistemaDeInscripcion.Datos\bin\Debug\EntityFramework.dll
+C:\Users\curacao\Desktop\SistemaDeInscripcion\SistemaDeInscripcion.Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\curacao\Desktop\SistemaDeInscripcion\SistemaDeInscripcion.Datos\bin\Debug\EntityFramework.xml
+C:\Users\curacao\Desktop\SistemaDeInscripcion\SistemaDeInscripcion.Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\curacao\Desktop\SistemaDeInscripcion\SistemaDeInscripcion.Datos\obj\Debug\SistemaDeInscripcion.Datos.csprojResolveAssemblyReference.cache
+C:\Users\curacao\Desktop\SistemaDeInscripcion\SistemaDeInscripcion.Datos\obj\Debug\SistemaDeInscripcion.Datos.dll
+C:\Users\curacao\Desktop\SistemaDeInscripcion\SistemaDeInscripcion.Datos\obj\Debug\SistemaDeInscripcion.Datos.pdb

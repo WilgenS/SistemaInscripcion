@@ -1,0 +1,40 @@
+﻿@model SistemaDeInscripcion.Datos.Modelo.cursos
+@{
+    ViewBag.Title = "Detalle";
+}
+
+<h2>Detalle del curso</h2>
+<hr />
+
+<div class="form-group">
+    <label>Id Curso: </label>
+    @Model.id_curso
+</div>
+<div class="form-group">
+    <label>Codigo de curso: </label>
+    @Model.codigo_curso
+</div>
+
+<div class="form-group">
+    <label>Nombre del curso: </label>
+    @Model.nombre_curso
+</div>
+
+<div class="form-group">
+    <label>Horario: </label>
+    @Model.horario
+</div>
+
+<div class="form-group">
+    <label>Profesor: </label>
+    @Model.profesor
+</div>
+
+<div class="form-group">
+    <label>Facultad: </label>
+    @Model.facultad
+</div>
+
+<div class="form-group">
+    <a href="@Url.Action("Index","Cursos")">Regresar</a>
+</div>

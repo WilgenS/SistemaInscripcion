@@ -1,0 +1,39 @@
+﻿@model List<SistemaDeInscripcion.Datos.Modelo.cursos>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+<table class="table">
+    <tr>
+        <th>   Id_curso     </th>
+        <th> codigo del curso </th>
+        <th> nombre del curso </th>
+        <th>Acciones</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.id_curso)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.codigo_curso)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nombre_curso)
+            </td>
+
+            <td>
+                <a href="@Url.Action("Inscripcion", "Inscribir")" class="btn btn-success right">Inscribir</a>
+                <a href="@Url.Action("Detalle", "Cursos", new {id = item.id_curso})" class="btn btn-default right">Ver Detalle</a>
+            </td>
+        </tr>
+    }
+
+</table>
+

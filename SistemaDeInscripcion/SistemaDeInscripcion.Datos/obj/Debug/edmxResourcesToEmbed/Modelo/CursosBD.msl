@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB_A4C4D2_SISTEMASModelStoreContainer" CdmEntityContainer="CursosEntities">
+    <EntitySetMapping Name="cursos">
+      <EntityTypeMapping TypeName="DB_A4C4D2_SISTEMASModel.cursos">
+        <MappingFragment StoreEntitySet="cursos">
+          <ScalarProperty Name="id_curso" ColumnName="id_curso" />
+          <ScalarProperty Name="codigo_curso" ColumnName="codigo_curso" />
+          <ScalarProperty Name="nombre_curso" ColumnName="nombre_curso" />
+          <ScalarProperty Name="horario" ColumnName="horario" />
+          <ScalarProperty Name="profesor" ColumnName="profesor" />
+          <ScalarProperty Name="estado_curso" ColumnName="estado_curso" />
+          <ScalarProperty Name="facultad" ColumnName="facultad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="estudiante">
+      <EntityTypeMapping TypeName="DB_A4C4D2_SISTEMASModel.estudiante">
+        <MappingFragment StoreEntitySet="estudiante">
+          <ScalarProperty Name="id_est" ColumnName="id_est" />
+          <ScalarProperty Name="nombre_est" ColumnName="nombre_est" />
+          <ScalarProperty Name="apellido_est" ColumnName="apellido_est" />
+          <ScalarProperty Name="num_carnet" ColumnName="num_carnet" />
+          <ScalarProperty Name="carrera" ColumnName="carrera" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="Login" FunctionName="DB_A4C4D2_SISTEMASModel.Store.Login" />
+  </EntityContainerMapping>
+</Mapping>
